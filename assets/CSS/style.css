@@ -1,0 +1,680 @@
+/* 
+Author = Kapil Kumar
+file name = boscage furniture
+*/
+
+/* 
+CSS starts here
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section{
+    margin:0 auto;
+    padding: 50px 0px;
+}
+.container{
+    padding:0px 10px ;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* header css starts here */
+.navbar{
+    max-width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+.navbar1{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 3fr 1fr ;
+}
+.logo{
+    cursor: pointer;
+    align-content: center;
+    max-width: 100px;
+}
+.mobile-menu{
+    display: none;
+}
+.menu{
+    align-content: center;
+}
+.menu ul {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    cursor:pointer;
+}
+.menu ul li a:hover{
+    color: orange;
+}
+.btn1{
+    align-content: center;
+    text-align: right;
+    padding-right: 10px;
+}
+.btn1 button{
+    cursor: pointer;
+    border: none;
+    padding: 10px 30px 10px 30px;
+    background-color: orange;
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn1 button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+/* hero section css starts here */
+.hero-cont{
+    max-width: 100%;
+}
+.hero{
+    position: relative;
+}
+
+.herotext{
+    position: absolute;
+    top: -550px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    z-index: 10;
+}
+.span1{
+    font-weight: 600;
+}
+.span2{
+    color: rgb(36, 30, 46);
+}
+.slide-image img{
+    width: 100%;
+}
+.hero-slide{
+    position: relative;
+}
+button.slick-arrow {
+    position: absolute;
+    top: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9;
+}
+
+button.slick-arrow img{
+    width: 100%;
+    height: auto;
+}
+
+button.slick-prev.slick-arrow {
+    left: 10px;
+    transform: translate(0px, -50%);
+}
+
+button.slick-next.slick-arrow {
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+/* image section css starts here */
+.image-sec{
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+.imagediv1{
+    max-width: calc((100% - 80px) / 3);
+}
+.image2{
+    position: relative;
+    bottom: 35px;
+}
+/* heading section css starts here */
+.headingdiv{
+    text-align: center;
+    font-size: 30px;
+}
+/* grid section css starts here */
+.grid-sec{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+.item{
+    text-align: center;
+    
+    border: 1px solid black;
+}
+/* button section CSS starts here */
+.btn2{
+    text-align: center;
+}
+.btn2 button{
+    border: 1px solid black;
+    border-radius: 1px;
+    background-color: white;
+    color: black;
+    padding: 15px 35px 15px 35px;
+}
+.btn2 button:hover{
+    color: white;
+    background-color: rgb(37, 34, 34);
+}
+.image-sec{
+    max-width: 100%;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img-ban-1{
+    /* width: 100%; */
+    width:35%;
+    min-height: 600px;
+    flex: 0 0 auto;
+    background-image: url(/assets/Image/hp-1-banner-1.jpg);
+    background-size:cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    align-content: center;
+    text-align: center;
+}
+.img-ban-2{
+    background-image: url(/assets/Image/hp-1-banner-2.jpg);
+    /* max-width: calc(100% - 30% - 40px); */
+    width:calc(100% - 35% - 35px);
+    min-height:600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    flex: 0 0 auto;
+    align-content: center;
+    text-align: center;
+}
+.image-banner1{
+    height: 100%;
+    color: white;
+    align-content:end;
+    padding-bottom: 100px;
+}
+.image-banner1 h2{
+    font-size: 60px;
+}
+.image-banner1 button{
+    border: none;
+    color: white;
+    background-color: transparent;
+    font-size: 25px;
+    
+}
+.image-banner2{
+    height: 100%;
+    align-self: flex-start;
+    padding-top: 100px;
+    
+}
+.image-banner2 h2{
+    font-size: 50px;
+    color: white;
+}
+.image-banner2 p{
+    font-size: 20px;
+    color: white;
+}
+/* team slide css starts here */
+.team{
+    background-color: antiquewhite;
+    height: 500px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-image{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.team-text{
+    width: calc(100% - 50% - 40px);
+    flex:  0 0 auto;
+    align-content: center;
+    text-align: center ;
+    height: 500px;
+}
+.team-text h2{
+    padding-top: 20px;
+}
+/* heading 3 section css starts here */
+.headingdiv p{
+    padding-top: 10px;
+    
+}
+.headingdiv p a{
+    color: black;
+    text-decoration: none;
+}
+.image-grid-div{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+/* Footer section CSS starts here */
+.foot-cont{
+    max-width: 100%;
+    background-color: rgb(50, 47, 44);
+}
+.footer{
+    max-width: 1200px;
+    padding: 50px;
+    margin: 0 auto;
+    color: white;
+    
+    display: grid;
+    gap: 40px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.foot-head h2{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.feet ul li{
+    list-style-type: none;
+    line-height: 30px;
+    cursor: pointer;
+}
+.feet ul li h3{
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.feet ul li button{
+    cursor: pointer;
+    border: none;
+    padding:2px 10px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(50, 47, 44);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About us page css here  */
+
+
+
+/* Hero - section CSS starts here */
+.a-hero-section{
+    padding: 0;
+    margin: 0;
+    background-image:url(/assets/Image/about-us-bc.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 300px;
+    max-width: 100%;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.a-about-cont{
+    max-width: 1200px;
+}
+.a-header-heading{   
+    padding: 0 50px;
+}
+.a-header-heading h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.a-header-heading h4 a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* Story section CSS starts here */
+.a-story-cont{
+    max-width: 1200px;
+}
+.a-story{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+.a-story-img{
+    flex: 0 0 auto;
+    max-width: 40%;
+}
+.story-text{
+    flex: 0 0 auto;
+    max-width: calc(100% - 40% - 40px);
+    align-content: center;
+}
+.story-text h3{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.sgn-box{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+.sgn{
+   
+    flex: 0 0 auto;
+    width: 120px;
+}
+.sgn-name{
+    flex: 0 0 auto;
+}
+.sgn-name :nth-child(1){
+    font-weight: bold;
+}
+/* grid section css starts here */
+.a-grid-cont{
+    max-width: 100%;
+}
+.a-grid-sec{
+    display: grid;
+    gap: 10px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.img1{
+   grid-column-start: 1;
+   grid-column-end: 2;
+}
+.img2{
+    grid-column-start:2;
+    grid-column-end: 4;
+}
+.img3{
+    grid-column-start:1;
+    grid-column-end: 3;
+}
+.img4{
+    grid-column-start:3;
+    grid-column-end: 4;
+}
+.img5{
+    grid-column-start:4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-image1 img{
+    width: 100%;
+}
+/* Team-section CSS starts here */
+.a-team-cont{
+    max-width: 1200px;
+}
+.a-team-heading h2{
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 50px;
+}
+.a-team-sec{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+.team1 img{
+    border-radius: 50%;
+}
+.team1 h4{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.team1 h5{
+    color: rgb(51, 47, 47);
+}
+.team{
+    background-color: antiquewhite;
+    height: 500px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.team-image{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.team-text{
+    width: calc(100% - 50% - 40px);
+    flex:  0 0 auto;
+    align-content: center;
+    text-align: center ;
+    height: 500px;
+}
+.team-text h2{
+    padding-top: 20px;
+}
+button.slick-arrow {
+    position: absolute;
+    top: 50%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9;
+}
+
+button.slick-arrow img{
+    width: 100%;
+    height: auto;
+}
+
+button.slick-prev.slick-arrow {
+    left: 10px;
+    transform: translate(0px, -50%);
+}
+
+button.slick-next.slick-arrow {
+    right: 10px;
+    transform: translate(0, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact us page css starts here */
+
+
+
+
+/* Hero - section CSS starts here */
+.a-hero-section{
+    padding: 0;
+    margin: 0;
+    background-image:url(/assets/Image/about-us-bc.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 300px;
+    max-width: 100%;
+    align-content: center;
+    padding-bottom: 50px;
+}
+.about-cont{
+    max-width: 1200px;
+}
+.c-header-heading{   
+    padding: 0 50px;
+}
+.c-header-heading h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.c-header-heading h4 a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+/* form section css starts here */
+
+.contact-cont{
+    max-width: 1200px;
+}
+.c-form-with-text{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c-form-sec{
+    flex: 0 0 auto;
+    max-width: 50%;
+}
+.c-form-sec div {
+    padding: 20px 0px;
+}
+.c-form-sec input{
+    padding: 5px 400px 5px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+#comments{
+    height: 100px;
+}
+.c-form-sec button{
+    padding: 15px 40px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.c-form-sec button:hover{
+    color: white;
+    background-color:rgb(50, 47, 44) ;
+    
+}
+.form-text{
+    flex: 0 0 auto;
+    max-width: calc(100% - 50% - 40px);
+    /* align-content: center; */
+}
+.form-text h2{
+    font-size: 40px;
+    padding-bottom: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.address-div{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.address-div h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.add1 ul li{
+    padding: 5px 0px;
+    list-style-type: none;
+}
+.add1 ul li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.add1{
+    flex: 0 0 auto;
+    max-width: 50%;
+    
+}
+.add2{
+    flex: 0 0 auto;
+    max-width: calc(100% - 50% - 20px);
+}
+.add2 ul li{
+    padding: 5px 0px;
+    list-style-type: none;
+}
+.add2 ul li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.map-cont{
+    max-width: 100%;
+}
+.map-sec{
+    min-height: 500px;
+}

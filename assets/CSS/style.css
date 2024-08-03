@@ -207,7 +207,7 @@ button.slick-next.slick-arrow {
     width:35%;
     min-height: 600px;
     flex: 0 0 auto;
-    background-image: url(/assets/Image/hp-1-banner-1.jpg);
+    background-image: url(assets/Image/hp-1-banner-1.jpg);
     background-size:cover;
     object-fit: cover;
     background-repeat: no-repeat;
@@ -216,7 +216,7 @@ button.slick-next.slick-arrow {
     text-align: center;
 }
 .img-ban-2{
-    background-image: url(/assets/Image/hp-1-banner-2.jpg);
+    background-image: url(assets/Image/hp-1-banner-2.jpg);
     /* max-width: calc(100% - 30% - 40px); */
     width:calc(100% - 35% - 35px);
     min-height:600px;
@@ -357,7 +357,7 @@ button.slick-next.slick-arrow {
 .a-hero-section{
     padding: 0;
     margin: 0;
-    background-image:url(/assets/Image/about-us-bc.jpg);
+    background-image:url(assets/Image/about-us-bc.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -563,7 +563,7 @@ button.slick-next.slick-arrow {
 .a-hero-section{
     padding: 0;
     margin: 0;
-    background-image:url(/assets/Image/about-us-bc.jpg);
+    background-image:url(assets/Image/about-us-bc.jpg);
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;

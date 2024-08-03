@@ -16,8 +16,8 @@
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    prevArrow: '<button type="button" class="slick-prev"><img src="assets/image/left-arrow.png"></button>',
-    nextArrow: '<button type="button" class="slick-next"><img src="assets/image/right-arrow.png"></button>'
+    prevArrow: '<button type="button" class="slick-prev"><img src="../../assets/image/left-arrow.png"></button>',
+    nextArrow: '<button type="button" class="slick-next"><img src="../../assets/image/right-arrow.png"></button>'
   });
 
 
